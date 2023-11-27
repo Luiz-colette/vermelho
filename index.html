@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    Negrito – bold, em inglês
+Existem duas formas de aplicar o negrito com tags. Cada forma de aplicação possui uma função:
+
+b – Segundo a descrição do W3C, a tag b deve ser usada para destacar uma palavra.
+strong – A tag strong também destaca a palavra. No entanto, essa tag deve ser usada para representar algo importante, sério ou urgente.
+    <hr>
+    Itálico
+Assim como o negrito (bold), o itálico também possui duas formas de ser aplicado.
+
+i – Segundo as orientações do W3C, a tag i deve ser usada em termos técnicos. Por exemplo: O nome da flor é Orquídea.
+em – Já a tag em deve ser usada para dar ênfase a uma palavra. Por exemplo: Ela não passou por aqui ontem.
+    <hr>
+    Sublinhado, subscrito e sobrescrito
+As tags para sublinhar, subscrever e sobrescrever são:
+
+Tag u – A tag u adiciona sublinhado ao texto.
+Tag sub – O texto dentro da tag sub se torna subscrito (letras pequenas abaixo de um texto). Ex: H20.
+Tag sup – Coloca o texto como sobrescrito (letras pequenas acima de um texto). Ex: X4.
+    <hr>
+    Para criar uma lista não ordenada, basta adicionar a tag ul. Já os itens são incluídos a partir da tag li. Vejamos um exemplo:
+    <ul>
+        <li> Fundação</li>
+        <li> Bradesco</li>
+        <li> Brasil</li>
+        </ul>
+    <hr>
+        Conhecida também como lista numerada, a lista ordenada é utilizada para representar uma sequência ou numeração. A inserção da lista ordenada é feita com as tags ol e li.
+            Vejamos:
+    <ol>
+        <li> Fundação</li>
+        <li> Bradesco</li>
+        <li> Brasil</li>
+    </ol><hr>
+    A lista de definição é constituída por um termo e uma descrição. A criação desse modelo de lista utiliza três elementos do HTML. Vejamos:
+    <dl> dl – cria a lista.
+        <dt> dt – define o termo.
+        <dd> dd – adiciona a definição.
+    <hr>
+    Quando inserimos um link, a tag a faz o papel de direcionar a navegação entre as páginas. O elemento a da tag significa action e realiza uma ação quando acionado.
+        Para criar o link, o atributo href é obrigatório. Tal atributo guarda o novo endereço para onde o usuário será direcionado.
+        a href="Endereço destino"> Texto para seu link /a
+    <hr>
+        O uso de imagens em páginas web é indispensável tanto por uma questão estética quanto para compreensão do conteúdo. O HTML possui uma tag específica para a inclusão de imagens.
+        A tag img possibilita trabalhar com imagens. Os atributos dessa tag auxiliam na definição do tamanho, da posição e da descrição da imagem.
+        img src= “Local onde está a imagem”
+    <hr>
+    Para criar uma tabela, precisamos de três tags table, tr e td. Onde table é a tabela toda, tr é a linha e td é a coluna.
+    Exemplo disso seria:
+    <table>
+        <tr>
+            <td> Fundação Bradesco </td>
+            <td> Apostila </td>
+        </tr>
+    </table>
+    Formulários – Forms
+        Para criar um formulário, temos de usar uma tag específica. A tag form é a responsável por essa função. Vejamos:
+        form action=" "  method = " ">  /form
+        Os atributos na tag form não são obrigatórios. No entanto, os padrões recomendam a definição de valores para os dois atributos a seguir:
+        Action
+        O atributo action define o destino dos dados que foram coletados. De modo geral, o valor inserido nesse atributo é um URL.
+        Method
+        O atributo method tem a função de definir o método do HTTP que será usado para enviar os dados – GET ou POST.
+    <hr>
+    Formulários – Forms
+Para criar um botão, usaremos a tag button. Apesar de parecer óbvio, a tag button pode apresentar mais de um comportamento. O comportamento da tag button depende de seu type, que pode ser de três tipos. Clique nas imagens a seguir.
+Type submit
+O type submit envia os dados do formulário à página-destino do atributo actions.
+Type reset
+O type reset redefine todos os campos para padrão, assim que acionado.
+Type button
+Uma tag button com o type button não realiza nenhuma ação, a não ser que seja acionada via codificação Javascript.
+    <hr>
+    De modo geral, o input com atributo type e valor checkbox são usados em questões com opções de escolha – sim ou não, por exemplo.
+    Podemos selecionar mais de um checkbox. Isso torna o valor checkbox muito recomendado para opções de múltiplas escolhas.
+    <hr>
+    Tag select
+    A tag select é formada por um conjunto de opções option. Tais opções fornecem ao usuário uma lista organizada no formato drop-down.
+    Vejamos:
+    <select>
+        <option value="verde">Verde</option>
+        <option value="vermelho">Vermelho</option>
+        <option value="azul">Azul</option>
+        <option value="alpha">Alpha</option>
+    </select>
+    <hr>
+    CSS<BR>
+    Atributos
+Os atributos ou propriedades são informações de um elemento que permitem a formatação total de sua aparência, posição, dimensão e outros aspectos.<br>
+Desse modo, são exemplos de atributos a borda, o background, a largura e a altura.<br>
+Classes<br>
+Já as classes são um conjunto de atributos predefinidos com o objetivo de formatar um elemento. Esse conjunto de informações facilita a configuração dos elementos HTML.<br>
+Podemos aplicar a mesma classe em vários elementos distintos. Lembre-se! As classes são um tipo de seletor.<br>
+Seletor 	Formato	    Descrição<BR>
+Universal	*	    Qualquer elemento.<BR>
+Tipo elemento	e	Seleciona qualquer elemento do tipo e.<BR>
+Classe	.	Seleciona os elementos que contêm a classe.<BR>
+ID	#	Seleciona o elemento identificado com o ID.<BR>
+Link	a	Seleciona a pseudo-class link.<BR>
+Hover	:hover	É aplicada quando posicionamos o mouse sobre o elemento.<BR>
+<BR>
+    
+</body>
+</html>
